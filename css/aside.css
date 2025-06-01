@@ -1,0 +1,16 @@
+aside{
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    display:flex;
+    flex-direction:column;
+    gap:100px;
+    padding:20px;
+}
+aside div{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+    font-size:30px;
+}
