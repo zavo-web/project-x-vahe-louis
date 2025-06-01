@@ -1,47 +1,61 @@
-main{
-    width: 100%;
-    height: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-main div{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width:500px;
-    padding:30px;
-    gap:20px;
-    border-radius: 20px;
-    border:1px solid rgb(30, 30, 30);
-    background-color: rgb(20, 20, 20);
-}
-main div p{
-    font-size:30px;
-    font-weight: bold;
-    margin:0;
-}
-form{
-    display:flex;
-    flex-direction:column;
-    align-items: center;
-    gap:20px
+/* telefoon  */
+@media screen and (width >=378px) {
+    main {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        padding: 30px;
+        gap: 20px;
+        border-radius: 20px;
+        border: 1px solid rgb(30, 30, 30);
+        background-color: rgb(20, 20, 20);
+    }
+
+    main div p {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    form input {
+        width: 100%;
+        height: 40px;
+        padding-left: 25px;
+        border-radius: 15px;
+        outline: none;
+        border: none;
+    }
+
+    main div button {
+        border: none;
+        width: 50%;
+        height: 40px;
+        border-radius: 10px;
+        font-weight: bold;
+        background-color: white;
+    }
 }
 
-form input{
-    width:400px;
-    height:40px;
-    padding-left: 20px;
-    border-radius:15px;
-    outline:none;
-    border:none;
-}
-
-main div button{
-    border:none;
-    width: 420px;
-    height: 40px;
-    border-radius:10px;
-    font-weight: bold;
+@media screen and (width > 1024px) {
+    main div {
+        width: 500px;
+    }
 }
